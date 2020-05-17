@@ -1,3 +1,7 @@
+html{
+  background-color:rgb(41, 40, 40);
+}
+
 .memories-root{
   background-color:rgb(80, 80, 80);
 }
@@ -18,11 +22,12 @@
 .memory-left{
   margin-top: 70px;
   margin-left: 5%;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .memory-right{
   border-radius: 10px;
-  color: red;
+  color: black;
   margin-top: 7%;
   margin-right: auto;
   margin-left: auto;
@@ -31,7 +36,8 @@
   background-color: white;
   opacity: 0.8;
   background-size: cover;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
 }
 
 .choose {
@@ -63,6 +69,7 @@
   border: 1px solid black;
   border-radius: 10px;
   list-style: none;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 
 }
 
@@ -86,7 +93,7 @@
   margin-right: auto;
   margin-left: auto;
   width: 50%;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   margin-bottom: 0px;
 }
 .page-end {
@@ -97,6 +104,7 @@
   transition: all 0.3 linear;
   border-radius: 0.3rem;
   text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 .page-end img {
   border-radius: 0.3rem;
@@ -106,16 +114,19 @@
   border:0.1rem solid teal;
   width: 70px;
   height: 100px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .button{
   margin-left: 45%;
   margin-top: 10px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(34, 33, 33, 0.19);
 }
 
 .title{
   text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .spinner{

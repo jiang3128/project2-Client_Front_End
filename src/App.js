@@ -36,7 +36,7 @@ function App() {
 
   const TitleContent = () => {
     return <div className = "title">
-        <h1>Food Ordering App</h1>
+        <h1>Quarantine Food Ordering</h1>
       </div>
   };
 
