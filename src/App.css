@@ -1,0 +1,147 @@
+.memories-root{
+  background-color:rgb(80, 80, 80);
+}
+.memory{
+  display: flex;
+  width: 51%;
+  height: 200px;
+  background-color: black;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: white;
+  text-shadow: 0 0 3px black;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.memory-left{
+  margin-top: 70px;
+  margin-left: 5%;
+}
+
+.memory-right{
+  border-radius: 10px;
+  color: red;
+  margin-top: 7%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+  height: 120px;
+  background-color: white;
+  opacity: 0.8;
+  background-size: cover;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.choose {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.choose :hover{
+  color: purple;
+}
+
+.dropdown {
+  /* ... */
+  display: none;
+  font-family: fantasy;
+}
+
+.menu:hover > .dropdown {
+  display: block;
+}
+
+.menu {
+  padding: 5px;
+  width: 50%;
+  border-right: 1px solid white;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: darkgray;
+  border: 1px solid black;
+  border-radius: 10px;
+  list-style: none;
+
+}
+
+.dropdown li {
+  background-color: gray;
+  border-top: 1px solid white;
+  padding: 10px;
+  margin: 0;
+  list-style: none;
+}
+
+#order{
+  margin-left: 45%;
+}
+
+.page-start{
+  padding: 5px;
+  background-color: darkgray;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 0px;
+}
+.page-end {
+  background: #eeeeee;
+  width: 15rem;
+  padding: 1rem;
+  margin: 2rem auto;
+  transition: all 0.3 linear;
+  border-radius: 0.3rem;
+  text-align: center;
+}
+.page-end img {
+  border-radius: 0.3rem;
+  border-radius: 50%;
+  margin-right: 1.5rem;
+  margin-right: 1rem;
+  border:0.1rem solid teal;
+  width: 70px;
+  height: 100px;
+}
+
+.button{
+  margin-left: 45%;
+  margin-top: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.title{
+  text-align: center;
+}
+
+.spinner{
+  position:fixed;
+  width: 100px;
+  height: 100px;
+  border: 5px solid purple;
+  border-top-color: lightblue;
+  border-radius: 50%;
+  top:50%;
+  left:50%;
+  margin-left:-50px;
+  margin-top:-50px;
+  animation: spin 1s infinite linear;
+  z-index: 101;
+}
+
+@keyframes spin {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
